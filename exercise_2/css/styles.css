@@ -1,0 +1,29 @@
+.box1{
+    height: 100px;
+    width: 480px;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+}
+.box2{
+    height: 100px;
+    width: 150px;
+    background: #aaa;
+    float: left;
+}
+.box3{
+    height: 100px;
+    width: 150px;
+    background: #aaa;
+    display: inline-block;
+    float: center;
+    margin: 0px 0px 0px 15px;
+}
+.box4{
+    height: 100px;
+    width: 150px;
+    background: #aaa;
+    float: right;
+    margin: 0px 0px 0px 15px;
+}
