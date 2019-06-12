@@ -191,6 +191,7 @@ table {
     font-size: 25px;
     margin: 25px;
     margin-left: 150px;
+    background-image: url(../img/wallpaper.jpg);
     background: linear-gradient(to right bottom, #0000ff00 0%, #f00 100%, #f00);
     border-radius: 6px;
     height: 120px;
