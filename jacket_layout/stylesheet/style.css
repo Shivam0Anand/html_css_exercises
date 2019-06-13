@@ -129,36 +129,38 @@ table {
 }
  /* Main CSS Content */
 
- body{
-     margin: 25px;
-     background: rgb(240, 233, 233)
- }
- .main-header{
-     margin: 25px;
- }
- .main-header h1{
-     font-size: 30px;
-     word-spacing: 5px;
-     font-weight: 400;
- }
- .main-section{
-     margin: 25px;
- }
- .parent-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
- }
- .box{
-     border: 1px solid #000;
-     text-align: center;
-     padding: 10px;
-     background: #ffffff;
- }
- .box p{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 300;
- }
- .box h3{
-     font-weight: 600;
- }
+body{
+  margin: 25px;
+  background: rgb(240, 233, 233)
+}
+.wrapper{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+header h1{
+  font-size: 30px;
+  font-weight: 400;
+}
+.parent-box{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #000;
+}
+.box{
+  border: 1px solid #000;
+  text-align: center;
+  background: #ffffff;
+}
+.box p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+.box h3{
+  font-weight: 600;
+}
