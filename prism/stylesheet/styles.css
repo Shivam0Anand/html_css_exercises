@@ -1,6 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom CSS */
+
+
+body{
+    background: rgb(238, 238, 238);
+    font-family: 'Nunito', sans-serif;
+}
 .wrapper{
-    max-width: 1300px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
     padding: 30px;
+}
+.nav{
+    background: rgba(red, green, blue, 0);
+    margin: 0 0 0 700px;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li a{
+    text-decoration: none;
+    color: lightgreen;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    display: inline;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700
+}
+.nav li{
+    display: inline;
+}
+.main-header{
+    position: absolute;
+}
+.main-nav{
+    display: flex;
+    /*border: 1px solid #000;*/
+    padding: 10px;
+}
+.logo h1{
+    padding: 10px;
+    display: flex;
+    font-size: 35px;
+    /*border: #000 1px solid;*/
+}
+.nav0{
+    width: 120;
+    display: flex;
+    padding: 10px;
+    /*border: 1px solid #000;*/
+    align-items: baseline;
+}
+.hero{
+    /*border: 1px solid #000; */
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: linear-gradient(to left bottom, rgb(125, 35, 133) , rgb(6, 4, 121));
+}
+.intro{
+   /* border: 1px solid #000000; */
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;  
+    justify-content: flex-start;
+    margin-top: 150px;
+}
+.vl {
+  border-left: 2px solid green;
+  height: 200px;
+  margin-top: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.intro h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.inner-split{
+    /*border: 1px solid #000;*/
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.xyz{
+    background: #fff;
+}
+#one{
+    /*border: 1px solid #000;*/
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 1.5;  
+}
+#one h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+#one p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+#one-two{
+    /*border: 1px solid #000;*/
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 2;
+    margin-right: 100px;
+
+}
+.vl1 {
+    border-left: 2px solid green;
+    height: 230px;
+    margin-top: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.style2{
+    display: flex;
+    /*border: 1px solid #000;*/
+    padding: 25px;
+    flex-direction: column;
+}
+.spotlight{
+    display: flex;
+    /*border: 1px solid #000;*/
+    margin: 20px;
+    background: #fff;
+}
+.image{
+    display: flex;
+    /*border: 1px solid #000;*/
+}
+.content{
+    display: flex;
+    margin: 70px 40px;
+    /*border: 1px solid #000;*/
+    flex-direction: column;
+}
+.content h3{
+    display: block;
+    font-size: 35px;
+    margin: 20px;
+}
+.content p{
+    display: block;
+    font-size: 15px;
+    margin: 20px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background: #fff;
+}
+.button1{
+    width: 150px;
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #fff;
+}
+#contact{
+    max-width: 1200px;
+    display: flex;
+    /*border: 1px solid #000;*/
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.split{
+    max-width: 600px;
+    display: flex;
+    /*border: 1px solid #000;*/
+    margin: 0;
+    flex-direction: column;
+    padding: 20px;
+}
+.split2{
+    display: flex;
+    /*border: 1px solid #000;*/
+    margin: 20px;
+    padding: 30px;
+    max-width: 450px;
+}
+.split h2{
+    display: block;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.split p{
+    display: block;
+    font-size: 16px;
+    line-height: 2;
+}  
+.contact{
+    list-style-type: none;
+}
+.alt{
+    margin: 5px;
+}
+.row{
+    margin: 10px 0; 
+}
+.email{
+    margin-left: 20px;
+}
+.name-email{
+    display: flex;
+}
+input{
+    width: 200px;
+    height: 40px;
+}
+textarea{
+    width: 420px;
+    height: 200px;
+}
+.contact{
+    line-height: 2;
+    font-size: 20px;
+}
+#footer{
+    height: 100px;
+    background: #fff;
+}
+.copyright{
+    text-align: center;
+    color: rgb(228, 220, 220);
+    margin: 20px 0 0 0;
+}
+.checklist{
+    list-style-image: url(../images/right.png);
+    padding-left: 40px;
+    line-height: 2;
+    font-size: 20px;
 }
