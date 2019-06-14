@@ -1,35 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mini-Projects</title>
-
-    <style>
-        .wrapper{
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        .wrapper h1{
-            text-align: center;
-            color: bisque;
-        }
-    </style>
-
+    <title>Prism | Flexbox Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2b05622bfb.js"></script>
+    <!-- CSS -->
+    <link href="assets/stylesheets/styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <main class="wrapper">
-        <h1>Mini Projects</h1>
-        <ul>
-            <li><a href="exercise_1/index.html"></a>Exercise 1 layout</li>
-            <li><a href="exercise_2/index.html"></a>Exercise_2 layout</li>
-            <li><a href="positioning_layout_1/index.html">Cat's Usefullness</a>Cat's Usefullness</li>
-            <li><a href="layout_2/index.html">Box Layout 2</a></li>
-            <li><a href="layout_3/index.html">Box layout 3</a></li>
-            <li><a href="04project/index.html">Background and Gradient</a></li>
-            <li><a href="04_layout1/index.html">Lorem Ipsum layout</a></li>
-        </ul>
+    <!-- Header  -->
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav flex">
+                <a href="#">
+                    <h1 class="logo">Something</h1>
+                </a>
+                <ul class="nav-menu flex">
+                    <li><a class="menu-item" href="#">Home</a></li>
+                    <li><a class="menu-item" href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="wrapper flex">
+                <div class="col1">
+                    <h2 class="hero-heading">
+                        <span class="uppercase">web development</span>
+                    </h2>
+                    <p class="hero-para">Web development is the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). ... Among web professionals, "web development" usually refers to the main non-design aspects of building
+                        web sites: writing markup and coding.</p>
+                    <button class="btn btn-primary">Get started</button>
+                </div>
+            </div>
+        </section>
+        <!-- Article Section -->
+        <section class="padding article">
+            <div class="wrapper">
+                <article class="flex article-container">
+                    <div class="article-img">
+                        <img class="img-responsive" src="assets/img/html.png" alt="HTML" />
+                    </div>
+                    <div class="article-description">
+                        <h4 class="article-heading">HTML</h4>
+                        <p class="article-text">
+                            HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01
+                            was a major version of HTML and it was published in late 1999.
+                        </p>
+                        <button class="btn btn-secondary">Details</button>
+                    </div>
+                </article>
+                <article class="flex article-container">
+                    <div class="article-description">
+                        <h4 class="article-heading">CSS</h4>
+                        <ul class="article-text">
+                            <li>CSS stands for Cascading Style Sheets</li>
+                            <li>CSS is a language that describes the style of an HTML document.</li>
+                            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                            <li>External stylesheets are stored in CSS files</li>
+                        </ul>
+                        <button class="btn btn-secondary">Details</button>
+                    </div>
+                    <div class="article-img">
+                        <img class="img-responsive" src="assets/img/css3.png" alt="css" />
+                    </div>
+                </article>
+                <article class="flex article-container article-container-1">
+                    <div class="article-description ">
+                        <h4 class="article-heading">Exercises</h4>
+                        <ul class="article-text">
+                            <li>Box Model :-
+                                <a href="exercise_1/index.html">Layout 1&nbsp; </a><a href="exercise_2/index.html">Layout 2 &nbsp;</a><a href="layout_3/index.html">Layout 3</a>
+                            </li>
+                            <li>Positioning :-
+                                <a href="layout_2/index.html">Layout 1 &nbsp;</a>
+                                <a href="positioning_layout_1/index.html">Usefuleness of cat</a>
+                            </li>
+                            <li>Background and Gradients :-
+                                <a href="04project/index.html">Layout 1 &nbsp;</a>
+                                <a href="04_layout1/index.html">Layout 2 &nbsp;</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="article-extnd">
+                        <ul class="article-text">
+                            <li>Flexbox :-
+                                <a href="jacket_layout/index.html">Jacket Layout &nbsp;</a>
+                            </li>
+                            <li>Template :-
+                                <a href="prism/index.html">Prism Template by Templated</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </article>
+            </div>
+        </section>
     </main>
+    <footer class="padding footer">
+        <div class="wrapper">
+            <small>&copy; Untitled. All rights reseerved. AltCampus</small>
+        </div>
+    </footer>
 </body>
+
 </html>
