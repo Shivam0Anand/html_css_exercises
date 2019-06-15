@@ -84,14 +84,17 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -103,64 +106,79 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
+
 body {
-  line-height: 1;
+    line-height: 1;
 }
+
+
 /*ol,
 ul {
   list-style: none;
 }*/
+
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
- /* Main CSS Content */
 
-body{
-  margin: 25px;
-  background: rgb(240, 233, 233)
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-.wrapper{
-  max-width: 1300px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+
+
+/* Main CSS Content */
+
+body {
+    margin: 25px;
+    background: rgb(240, 233, 233)
 }
-header h1{
-  font-size: 30px;
-  font-weight: 400;
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-.parent-box{
-  max-width: 1300px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border: 1px solid #000;
+
+header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 25px 0 20px 80px;
 }
-.box{
-  border: 1px solid #000;
-  text-align: center;
-  background: #ffffff;
+
+.parent-box {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*border: 1px solid #000;*/
 }
-.box p{
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+
+.box {
+    border: 1px solid #000;
+    text-align: center;
+    background: #ffffff;
 }
-.box h3{
-  font-weight: 600;
+
+.box p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+.box h3 {
+    font-weight: 600;
 }
