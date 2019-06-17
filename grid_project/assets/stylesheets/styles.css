@@ -215,7 +215,7 @@ a{
     background: rgb(255, 239, 231);
 }
 .intro{
-    margin-top: 50%;
+    margin-top: 35%;
     padding: 3rem;
 }
 .intro h3{
@@ -264,6 +264,7 @@ a{
     background-image: url("../images/about-img.jpg");
     height: 304px;
     background-position: center;
+    background-size: cover;
 }
 .col-2-2{
     display: grid;
@@ -275,4 +276,149 @@ a{
 }
 .text h2{
     font-size: 2.5rem;
+}
+.desktop-color{
+    background: rgb(255, 201, 86);
+}
+.desktop{
+    padding: 2rem;
+    text-align: center;
+}
+.desktop h3{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.desktop i {
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    color: #fff;
+}
+.desktop p{
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.media-color{
+    background: rgb(255, 125, 86);
+}
+.mobile-color{
+    background: #000;
+}
+.coding{
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.coding h3{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #000;
+}
+.coding i{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    color: #000;
+}
+.coding p{
+    color: #aaa;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+.col-1-3{
+    background-image: url("../images/experience-img.jpg");
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+}
+.col-2-3{
+    padding: 2rem;
+    color: #fff;
+}
+.col-2-3 h2{
+    font-size: 3rem;
+}
+.col-2-3 p{
+    margin-top: 1.5rem;
+}
+.col-2-3 i, h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.p-text{
+    margin-left: 2rem;
+}
+.col-3-3{
+    background-image: url("../images/education-img.jpg");
+    height: 368px;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    padding: 2rem;
+}
+.form p{
+    margin-top:1rem;
+}
+.form h2{
+    font-size: 2rem;
+}
+.form-control{
+    background: rgb(255, 125, 86);
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    border-bottom: 1px solid rgb(255, 189, 48);
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+}
+.input-field{
+    width: 80%;
+}
+.form-control::placeholder {
+    color: #c3c3c3;
+}
+.col-2-2-pic{
+    background-image: url("../images/contact-img.jpg");
+    height: 556.94px;
+    background-position: center;
+    background-size: cover;
+}
+.col-4-2{
+    background: #000;
+    padding: 2.5rem;
+}
+.col-4-2 p, a{
+    margin-top: 1rem;
+    color: #aaa;
+}
+.col-4-2 address{
+    color: rgb(153, 153, 153);
+    margin-top: 2rem;
+}
+.col-4-2 h4{
+    font-size: 2rem;
+    color: rgb(212, 212, 212);
+    margin-bottom: 2rem;
+}
+.col-4-2 h3{
+    color: rgb(212, 212, 212);
+    margin: 2rem 0;
+}
+
+.footer{
+    padding: 3rem;
+    background: #fff;
+}
+
+
+@media all and (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+
+    .col{
+        grid-template-columns: 1fr;
+    }
 }
