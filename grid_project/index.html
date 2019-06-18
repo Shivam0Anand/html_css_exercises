@@ -1,176 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2b05622bfb.js"></script>
-    <link rel="stylesheet" href="assets/stylesheets/styles.css">
-    <title>Grid Layout</title>
-</head>
-<body>
-    <header class="header">
-        <div class="wrapper">
-            <nav class="nav flex">
-                <a href="#">
-                    <h1 class="logo">Stimulus</h1>
-                </a>
-                <div class="down">
-                        <div class="ham-menu">
-                            <i class="fas fa-bars"></i>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2b05622bfb.js"></script>
+        <link rel="stylesheet" href="assets/stylesheets/styles.css">
+        <title>Grid Layout</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="wrapper">
+                <nav class="nav flex">
+                    <a href="#">
+                        <h1 class="logo">Stimulus</h1>
+                    </a>
+                    <div class="down">
+                            <div class="ham-menu">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <div class="dropdown">
+                                <a href="#">Home</a>
+                                <a href="#">About Me</a>
+                                <a href="#">experiences</a>
+                                <a href="#">Testimonial</a>
+                                <a href="#">Contact</a>
+                            </div>
                         </div>
-                        <div class="dropdown">
-                            <a href="#">Home</a>
-                            <a href="#">About Me</a>
-                            <a href="#">experiences</a>
-                            <a href="#">Testimonial</a>
-                            <a href="#">Contact</a>
+                    <ul class="nav-menu flex">
+                        <li><a class="menu-item" href="#">Home</a></li>
+                        <li><a class="menu-item" href="#">About Me</a></li>
+                        <li><a class="menu-item" href="#">experiences</a></li>
+                        <li><a class="menu-item" href="#">Testimonial</a></li>
+                        <li><a class="menu-item" href="#">Contact</a></li>
+                    </ul>
+                
+                </nav> 
+            </div>
+        </header>
+        <main>
+            <!--Hero Section-->
+            <section class="parent">
+                <article class="col-1">
+                </article>
+                <article class="col-2">
+                    <div class="intro">
+                        <h3>welcome to my website</h3>
+                        <h2> Hello, I am <span style="font-weight: 700">Stimulus</span> currently based in New York city.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti maiores rerum, in obcaecati voluptas, 
+                            nam commodi nobis magnam at harum odio quas aliquam, itaque ipsum. 
+                            Necessitatibus libero aspernatur vel itaque?
+                        </p>
+                        <button class="btn">Get Started</button>
+                    </div>
+                </article>
+            </section>
+            <section class="parent">
+                <article class="col-1-2">
+                    <h2>Donec auctor</h2>
+                    <h4>Sed Viluptate vitae diam quis bibendum</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis distinctio, dolore, odit numquam provident magni aspernatur optio minus.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis distinctio, dolore, odit numquam provident magni aspernatur optio minus.</p>
+                </article>
+                <article class="col col-2-2">
+                    <div class="background"></div>
+                    <div class="text">
+                        <h2>My Skills</h2>
+                        <h4>Photoshop, HTML, CSS, JS, Web Design</h4>
+                        <div class="bar">
+                            <p>Frontend Design <span style="margin-left: 2rem">90%</span></p>
+                            <progress value="90" max="100"></progress>
+                            <p>Backend Processing <span style="margin-left: 2rem">70%</span></p>
+                            <progress value="70" max="100"></progress>
+                            <p>HTML5 & CSS3 <span style="margin-left: 2rem">80%</span></p>
+                            <progress value="80" max="100"></progress>
                         </div>
                     </div>
-                <ul class="nav-menu flex">
-                    <li><a class="menu-item" href="#">Home</a></li>
-                    <li><a class="menu-item" href="#">About Me</a></li>
-                    <li><a class="menu-item" href="#">experiences</a></li>
-                    <li><a class="menu-item" href="#">Testimonial</a></li>
-                    <li><a class="menu-item" href="#">Contact</a></li>
-                </ul>
-            
-            </nav> 
-        </div>
-    </header>
-    <main>
-        <!--Hero Section-->
-        <section class="parent">
-            <article class="col-1">
-            </article>
-            <article class="col-2">
-                <div class="intro">
-                    <h3>welcome to my website</h3>
-                    <h2> Hello, I am <span style="font-weight: 700">Stimulus</span> currently based in New York city.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti maiores rerum, in obcaecati voluptas, 
-                        nam commodi nobis magnam at harum odio quas aliquam, itaque ipsum. 
-                        Necessitatibus libero aspernatur vel itaque?
-                    </p>
-                    <button class="btn">Get Started</button>
-                </div>
-            </article>
-        </section>
-        <section class="parent">
-            <article class="col-1-2">
-                <h2>Donec auctor</h2>
-                <h4>Sed Viluptate vitae diam quis bibendum</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis distinctio, dolore, odit numquam provident magni aspernatur optio minus.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis distinctio, dolore, odit numquam provident magni aspernatur optio minus.</p>
-            </article>
-            <article class="col col-2-2">
-                <div class="background"></div>
-                <div class="text">
-                    <h2>My Skills</h2>
-                    <h4>Photoshop, HTML, CSS, JS, Web Design</h4>
-                    <div class="bar">
-                        <p>Frontend Design <span style="margin-left: 2rem">90%</span></p>
-                        <progress value="90" max="100"></progress>
-                        <p>Backend Processing <span style="margin-left: 2rem">70%</span></p>
-                        <progress value="70" max="100"></progress>
-                        <p>HTML5 & CSS3 <span style="margin-left: 2rem">80%</span></p>
-                        <progress value="80" max="100"></progress>
+                </article> 
+            </section>
+            <section class="parent">
+                <article class="col-2-2">
+                    <div class="desktop desktop-color">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Interface Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur dlkfdsio jsdhsw jhdsbjhb kjdu fkuwej adipisicing elit.</p>
                     </div>
-                </div>
-            </article> 
-        </section>
-        <section class="parent">
-            <article class="col-2-2">
-                <div class="desktop desktop-color">
-                    <i class="fas fa-desktop"></i>
-                    <h3>Interface Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur dlkfdsio jsdhsw jhdsbjhb kjdu fkuwej adipisicing elit.</p>
-                </div>
-                <div class="desktop media-color">
-                    <i class="fab fa-telegram-plane"></i>
-                    <h3>Media Strategy</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
-                </div>
-            </article>
-            <article class="col col-2-2">
-                <div class="desktop mobile-color">
-                    <i class="far fa-calendar-alt"></i>
-                    <h3>Mobile App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
-                </div>
-                <div class="coding">
-                    <i class="fab fa-css3-alt"></i>
-                    <h3>Coding</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
-                </div>
-            </article>
-        </section>
-        <section class="parent">
-            <article class="col col-1-3">
-            </article>
-            <article class="media-color col-2-3">
-                <h2>My experiences</h2>
-                <p>Previous Companies and my task</p>
-                <h3><i class="fas fa-laptop"></i>
-                Graphic Designer<span style="color: #000; font-size: 1rem;">2014 Jul-2015 Sep</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
-                <h3 style="margin-top: 1rem"><i class="fas fa-laptop"></i>
-                Web Designer<span style="color: #000; font-size: 1rem;">2015 Oct-2017 Jan</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
-                <p></p>
-            </article>
-        </section>
-        <section class="parent">
-            <article class="col-2-3 desktop-color">
-                <h2>My Education</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <h3><i class="fas fa-laptop"></i>
-                Graphic Designer<span style="color: #000; font-size: 1rem;">2014 Jul-2015 Sep</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
-                <h3 style="margin-top: 1rem"><i class="fas fa-laptop"></i>
-                Web Designer<span style="color: #000; font-size: 1rem;">2015 Oct-2017 Jan</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
-                <p></p>
-            </article>
-            <article class="col col-3-3"></article>
-        </section>
-        <section class="parent">
-            <form class="form media-color">
-                <h2>Say Hello</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <input class="form-control input-field" placeholder="Name" type="text"/>
-                <div><input class="form-control input-field" placeholder="Email" type="email"/>
-                </div>
-                <textarea
-                  class="form-control input-field" placeholder="Enter Message" name="" id="" rows="7"></textarea>
-                <div>
-                <input
-                  type="submit"
-                  value="send message"
-                  class="btn btn-secondary"
-                /></div>
-            </form>
-            <article class="col col-2-2">
-                <div class="col-2-2-pic"></div>
-                <div class="col-4-2">
-                    <h4>Visit my Offfice</h4>
-                    <address>456 New Street 220000, New York, USA</address>
-                    <h3>Contact</h3>
-                    <p><i class="fas fa-phone"></i>&nbsp;7985865658</p>
-                    <p><i class="fas fa-envelope-open"></i><a href="mailto:hello@company.co">&nbsp;hello@company.co</a></p>
-                    <p><i class="fas fa-globe-asia"></i><a href="company.co">&nbsp;company.co</a></p>
-                </div>
-            </article>
-        </section>
-        <section class="map">
-            <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13504.714156903032!2d76.36037696636171!3d32.19941944692131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b522c7cd8b85b%3A0x9d68653444d4c03a!2sRakkar%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1560772200279!5m2!1sen!2sin" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </section>
-    </main>
-    <footer class="footer">
-        <p style="text-align: center">&copy;altCampus | made with love</p>
-        <div class="icon">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-google"></i>
-            <i class="far fa-futbol"></i>
-            <i class="fab fa-linkedin-in"></i>
-    </div>
-    </footer>
-</body>
+                    <div class="desktop media-color">
+                        <i class="fab fa-telegram-plane"></i>
+                        <h3>Media Strategy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
+                    </div>
+                </article>
+                <article class="col col-2-2">
+                    <div class="desktop mobile-color">
+                        <i class="far fa-calendar-alt"></i>
+                        <h3>Mobile App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
+                    </div>
+                    <div class="coding">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>Coding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo temporibus expedita dignissimos facere fuga.</p>
+                    </div>
+                </article>
+            </section>
+            <section class="parent">
+                <article class="col col-1-3">
+                </article>
+                <article class="media-color col-2-3">
+                    <h2>My experiences</h2>
+                    <p>Previous Companies and my task</p>
+                    <h3><i class="fas fa-laptop"></i>
+                    Graphic Designer<span style="color: #000; font-size: 1rem;">2014 Jul-2015 Sep</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
+                    <h3 style="margin-top: 1rem"><i class="fas fa-laptop"></i>
+                    Web Designer<span style="color: #000; font-size: 1rem;">2015 Oct-2017 Jan</span></h3><p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
+                    <p></p>
+                </article>
+            </section>
+            <section class="parent">
+                <article class="col-2-3 desktop-color">
+                    <h2>My Education</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>
+                        <i class="fas fa-laptop"></i>
+                        <span>Graphic Designer</span>
+                        <span style="color: #000; font-size: 1rem;">2014 Jul-2015 Sep</span>
+                    </h3>
+                    <p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
+                    <h3 style="margin-top: 1rem">
+                        <i class="fas fa-laptop"></i>
+                        <span>Web Designer</span>
+                        <span style="color: #000; font-size: 1rem;">2015 Oct-2017 Jan</span>
+                    </h3>
+                    <p class="p-text" style="margin-top: 0">Lorem ipsum, dolor sit amet.</p>
+                </article>
+                <article class="col col-3-3"></article>
+            </section>
+            <section class="parent">
+                <form class="form media-color">
+                    <h2>Say Hello</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <input class="form-control input-field" placeholder="Name" type="text"/>
+                    <div>
+                        <input class="form-control input-field" placeholder="Email" type="email"/>
+                    </div>
+                    <textarea
+                    class="form-control input-field" placeholder="Enter Message" name="" id="" rows="7"></textarea>
+                    <div>
+                        <input
+                        type="submit"
+                        value="send message"
+                        class="btn btn-secondary"
+                        />
+                    </div>
+                </form>
+                <article class="col col-2-2">
+                    <div class="col-2-2-pic"></div>
+                    <div class="col-4-2">
+                        <h4>Visit my Offfice</h4>
+                        <address>456 New Street 220000, New York, USA</address>
+                        <h3>Contact</h3>
+                        <p><i class="fas fa-phone"></i>&nbsp;7985865658</p>
+                        <p><i class="fas fa-envelope-open"></i><a href="mailto:hello@company.co">&nbsp;hello@company.co</a></p>
+                        <p><i class="fas fa-globe-asia"></i><a href="company.co">&nbsp;company.co</a></p>
+                    </div>
+                </article>
+            </section>
+            <section class="map">
+                <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13504.714156903032!2d76.36037696636171!3d32.19941944692131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b522c7cd8b85b%3A0x9d68653444d4c03a!2sRakkar%2C+Himachal+Pradesh!5e0!3m2!1sen!2sin!4v1560772200279!5m2!1sen!2sin" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            <p style="text-align: center">&copy;altCampus | made with love</p>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google"></i>
+                <i class="far fa-futbol"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </footer>
+    </body>
 </html>
