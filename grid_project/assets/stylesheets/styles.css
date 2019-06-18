@@ -420,6 +420,16 @@ form{
 .dropdown{
     display: none;
 }
+.map{
+    background: rgb(255, 125, 86);
+    padding: 3rem;
+    text-align: center;
+}
+.icon{
+    padding: 1rem;
+    word-spacing: 2rem;
+    text-align: center;
+}
 
 @media all and (max-width: 768px){
     html{
@@ -462,5 +472,9 @@ form{
       }
       .intro{
           margin: 0 auto;
+      }
+      .map, .frame{
+          width: 100%;
+
       }
 }
